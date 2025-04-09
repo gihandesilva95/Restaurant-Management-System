@@ -36,5 +36,3 @@ Simple Restaurant Management System application built with Laravel 11.
 
 
 ### The project will be available at `  http://127.0.0.1:8000 ` by default.
-
-    
