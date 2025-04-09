@@ -1,8 +1,8 @@
-## To-Do Task Application
+## Restaurant Management System
 
 
 **Project Introduction**
-A simple Restaurant Management System application built with Laravel 11.
+Simple Restaurant Management System application built with Laravel 11.
 
 ### **Prerequisites**
 	- PHP version: 8.2 - 8.4
@@ -34,16 +34,6 @@ A simple Restaurant Management System application built with Laravel 11.
 ### 7. Run the dev server
     `npm run dev`
 
-
-### 3. Frontend Setup (Vue.js 3.5)
-
-    `cd todo-frontend`
-
-    # Install dependencies
-        `npm install`
-
-    # Run the dev server
-        `npm run dev`
 
 ### The project will be available at `  http://127.0.0.1:8000 ` by default.
 
