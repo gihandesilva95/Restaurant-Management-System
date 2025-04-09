@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* sidebar */
+
+.sidebar {
+    width: 250px;
+    background-color: #99c7f5;
+    
+}
+.nav-link {
+    color: #000;
+    font-weight: bold;
+}
+
+/* header */
+
+.py-6 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.multiple-select-container {
+    position: relative;
+}
+
+.multiple {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+    min-height: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.selected-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tag {
+    background-color: #0d6efd;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+}
+
+.tag .remove {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    min-width: 50px;
+}
+
+.options-container {
+    position: absolute;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ced4da;
+    border-top: none;
+    border-radius: 0 0 0.25rem 0.25rem;
+    background-color: white;
+    z-index: 1000;
+    display: none;
+}
+
+.options-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.option-item {
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+}
+
+.option-item:hover, .option-item.selected {
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* Custom Sidebar Styling */
+.sidebar .nav-link {
+    color: #333;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+    background-color: #e2e6ea;
+    color: #000;
+}
+
